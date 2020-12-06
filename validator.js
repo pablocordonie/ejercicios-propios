@@ -1,5 +1,8 @@
-const lengthValidator = (field) => {
-    const hadLength = field.length;
-    return hadLength;
+const hadLength = !Boolean(field.length);
+if(hadLength){
+  return "Este campo no tiene longitud"
+}
+else {
+     "Campo introducido"
 }
 
